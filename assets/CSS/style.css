@@ -1,0 +1,57 @@
+body {
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.year {
+    margin-top: 30px;
+}
+
+.yearHeader {
+    border: 1px grey solid;
+    font-size: 23px;
+}
+
+.header {
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.dFam {
+    background-color: blanchedalmond;
+}
+
+.sFam {
+    background-color: rgb(191, 230, 243);
+}
+
+.rFam {
+    background-color: rgb(193, 253, 193);
+}
+
+.quarter {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.key {
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.keyFam {
+    border: 1px lightgrey solid;
+}
+
+.month {
+    border: 1px lightgrey solid;
+    padding-bottom: 5px;
+}
+
+.monthName {
+    font-size: 20px;
+}
