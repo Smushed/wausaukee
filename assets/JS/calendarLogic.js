@@ -27,24 +27,28 @@ $(document).ready(() => {
                                         </div>
                                         <div class="row quarter">
                                             <div class="col-3 month ${famAbbr[currentOrder[0]]}">
-                                                <div class="monthName">January</div>
+                                                <div class="monthName d-none d-lg-block">January</div>
+                                                <div class="monthName d-lg-none">Jan</div>
                                                 ${map[currentOrder[0]]}
                                             </div>
                                             <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[1]]}">
-                                                <div class="monthName">February</div>
+                                                <div class="monthName d-none d-lg-block">February</div>
+                                                <div class="monthName d-lg-none">Feb</div>
                                                 ${map[currentOrder[1]]}
                                             </div>
                                             <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[2]]}">
-                                                <div class="monthName">March</div>
+                                                <div class="monthName d-none d-lg-block">March</div>
+                                                <div class="monthName d-lg-none">Mar</div>
                                                 ${map[currentOrder[2]]}
                                             </div>
                                             <div class="col-1"></div>
                                         </div>
                                         <div class="row quarter">
                                             <div class="col-3 month ${famAbbr[currentOrder[0]]}">
-                                            <div class="monthName">April</div>
+                                                <div class="monthName d-none d-lg-block">April</div>
+                                                <div class="monthName d-lg-none">Apr</div>
                                                 ${map[currentOrder[0]]}
                                             </div>
                                             <div class="col-1"></div>
@@ -66,29 +70,34 @@ $(document).ready(() => {
                                             </div>
                                             <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[1]]}">
-                                                <div class="monthName">August</div>
+                                                <div class="monthName d-none d-lg-block">August</div>
+                                                <div class="monthName d-lg-none">Aug</div>
                                                 ${map[currentOrder[1]]}
                                             </div>
                                             <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[2]]}">
-                                                <div class="monthName">September</div>
+                                                <div class="monthName d-none d-lg-block">September</div>
+                                                <div class="monthName d-lg-none">Sept</div>
                                                 ${map[currentOrder[2]]}
                                             </div>
                                             <div class="col-1"></div>
                                             </div>
                                         <div class="row quarter">
                                             <div class="col-3 month ${famAbbr[currentOrder[0]]}">
-                                                <div class="monthName">October</div>
+                                                <div class="monthName d-none d-lg-block">October</div>
+                                                <div class="monthName d-lg-none">Oct</div>
                                                 ${map[currentOrder[0]]}
                                                 </div>
                                                 <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[1]]}">
-                                                <div class="monthName">November</div>
+                                                <div class="monthName d-none d-lg-block">November</div>
+                                                <div class="monthName d-lg-none">Nov</div>
                                                 ${map[currentOrder[1]]}
                                             </div>
                                             <div class="col-1"></div>
                                             <div class="col-3 month ${famAbbr[currentOrder[2]]}">
-                                                <div class="monthName">December</div>
+                                                <div class="monthName d-none d-lg-block">December</div>
+                                                <div class="monthName d-lg-none">Dec</div>
                                                 ${map[currentOrder[2]]}
                                             </div>
                                             <div class="col-1"></div>
