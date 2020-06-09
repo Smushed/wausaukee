@@ -1,9 +1,9 @@
 $(document).ready(() => {
-    const order = [[0, 1, 2], [1, 2, 0], [2, 1, 0]];
+    const order = [[0, 1, 2], [1, 2, 0], [2, 0, 1]];
     const famAbbr = [`dFam`, `sFam`, `rFam`];
     const map = [`D. Flerlage`, `J. Shea`, `R. Flerlage`];
     const startYear = 2020;
-    let currentYear = 2018;
+    let currentYear = 2020;
 
     $.get(`http://worldtimeapi.org/api/America/Chicago`, function (data) {
         currentYear = +data.datetime.slice(0, 4);
